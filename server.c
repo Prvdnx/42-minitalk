@@ -6,7 +6,7 @@
 /*   By: ookamonu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/23 23:15:25 by ookamonu          #+#    #+#             */
-/*   Updated: 2023/09/13 22:15:14 by ookamonu         ###   ########.fr       */
+/*   Updated: 2023/09/14 00:46:39 by ookamonu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	bit_handler(int sig, siginfo_t *info, void *more_info)
 	}
 }
 
-/*------------------------[ 1 ]-Server Initialization------------------------*\
+/*------------------------[ 1 ]-Server-Initialization------------------------*\
 The server initializes, it prints a welcome message & its Process ID (PID)
 to standard output. It sets up signal handling using sigaction for both SIGUSR1 &
 SIGUSR2. The server enters an infinite loop "while (1) pause();" wherenit waits
