@@ -6,7 +6,7 @@
 /*   By: ookamonu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/23 23:15:25 by ookamonu          #+#    #+#             */
-/*   Updated: 2023/09/13 07:13:27 by ookamonu         ###   ########.fr       */
+/*   Updated: 2023/09/13 22:15:14 by ookamonu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,5 +93,5 @@ struct sigaction
 	int sa_flags;         =Special flags controlling the behavior of the signal.
 	void (*sa_restorer)(void);   =Not used in modern implementations.
 };
-Tester: https://github.com/ThibaudM13/minitalk-Tester/blob/main/tester.sh
+Tester --> https://github.com/ThibaudM13/minitalk-Tester/blob/main/tester.sh
 */
